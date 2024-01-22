@@ -1,0 +1,65 @@
+h1{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    color: green;
+}
+
+#h1_red{
+    color: red;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+
+div > p{
+    color: brown;
+}
+
+#test{
+    color: gold;
+}
+
+.test{
+    color: pink;
+}
+
+.container{
+
+    margin-top: 100px;
+    border: 5px dashed yellow;
+}
+
+body{
+   margin: 0;
+}
+
+div ul li:first-child{
+    background-color: blue;
+}
+
+div ul li:nth-of-type(2){
+    background-color: lightgreen;
+}
+
+
+div ul li:nth-of-type(3){
+    background-color: lightcoral;
+}
+
+a:hover{
+    color: lightslategray;
+}
+
+div ul li:hover:nth-of-type(2)::after{
+    content: "😓🍏";
+}
+
+div ul li:hover:nth-of-type(3)::after{
+    content: "🤍";
+}
