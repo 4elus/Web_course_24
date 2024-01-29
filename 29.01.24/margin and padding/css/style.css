@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+ul > li{
+    display: inline;
+    margin-left: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 20px;
+}
+
+.my_btn{
+    margin-top: 20px;
+    margin-left: 120px;
+    background-color: orange;
+    border: none;
+    padding: 20px 30px;
+}
+
+.my_btn:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.news{
+    width: 250px;
+    margin: 10px 20px;
+    padding: 25px;
+    display: inline-block;
+}
+
+
+
