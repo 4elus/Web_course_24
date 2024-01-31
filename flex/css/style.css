@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    margin-left: 20px;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.yellow{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}

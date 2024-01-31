@@ -4,6 +4,8 @@
 }
 
 .menu{
+    display: flex;
+    justify-content: end;
     background-color: black;
     color: white;
     height: 200px;
@@ -17,12 +19,26 @@ ul > li{
     padding-right: 20px;
 }
 
+ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+ul > li > a:hover{
+    color: gold;
+}
+
 .my_btn{
-    margin-top: 20px;
-    margin-left: 120px;
     background-color: orange;
     border: none;
     padding: 20px 30px;
+}
+
+.container_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .my_btn:hover{
@@ -31,11 +47,41 @@ ul > li{
 }
 
 .news{
-    width: 250px;
+    width: 330px;
     margin: 10px 20px;
     padding: 25px;
     display: inline-block;
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news > img{
+    width: 320px;
+}
+
+.news > h2{
+    text-align: center;
+}
+
+.news > button{
+    background-color: orange;
+    border: none;
+    padding: 20px 10px;
+}
+
+.news > button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
 
 
