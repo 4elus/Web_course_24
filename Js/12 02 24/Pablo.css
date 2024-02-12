@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+body{
+    background-color:rgba(216, 86, 140, 0.473);
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+.header{
+    display: flex; background-color: black; height:200px; justify-content: space-between; align-items:center ;
+
+}
+
+ul > li{
+    display: inline;
+}
+
+.navbot{
+    display: flex;
+    height: 180px;
+    align-items: end;
+    
+}
+
+.navbot > ul > li >a{
+    color: aquamarine;
+    border: 5px double white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    margin:50px;
+}
+
+h1.store{
+    color: white; 
+}
+.golova{
+  width: 750px;
+}
+.cart > a{
+    padding: 10px 20px;
+}
+.main{
+    display: grid;
+    color: white;
+    margin-top: 30px;
+    height: 700px;
+}
+.main > div:first-child{
+    grid-column: 1 / 2;
+    background-color:rgba(0, 0, 0, 0.534);
+    padding-left: 50px;
+}
+.main > div:nth-child(2){
+    grid-column: 2 / 7;
+    background-color: rgba(0, 0, 0, 0.534);
+    
+}
+
+.ban{
+    width: 300px;
+    height: 700px;
+}
+
+.card-img{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+.corzina {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.footer{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: rgba(15, 15, 15, 0.993);
+    margin-top: 20px
+}
+.footer-img{
+    height: 140px;
+}
+
