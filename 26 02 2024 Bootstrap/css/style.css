@@ -1,0 +1,13 @@
+.nav-item > .active{
+    color: aqua;
+    font-weight: 800;
+}
+
+
+
+
+.carousel-item > img{
+    width: 1200px;
+    height: auto;
+  
+}
