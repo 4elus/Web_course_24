@@ -1,0 +1,66 @@
+.nav-item > .active{
+    color: aqua;
+    font-weight: 800;
+}
+
+
+
+
+.carousel-item > img{
+    width: 1200px;
+    height: auto;
+  
+}
+
+.ban{
+    width: 300px;
+    height: 700px;
+}
+
+.carousel-item {
+    width: 1500px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+}
+  
+
+.footer{
+    background-color: #111111;
+    height: 200px;
+}
+
+.text-information{
+    color: white;
+}
+
+.text-information li{
+    list-style-type: none;
+}
+
+.text-information  a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo-footer > img{
+    width: 250px;
+}
+
+.soc-media > ul > li {
+    display: inline;
+    padding-left: 25px;
+}
+
+.fa-brands{
+    color: white;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+
+
+
